@@ -1,6 +1,11 @@
 /**
  * Example pattern Mediator
  */
+ 
+ /**
+ * Represents a book.
+ * @constructor
+ */
 var Participant = function(name) {
     this.name = name;
     this.chatroom = null;
